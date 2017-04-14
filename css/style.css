@@ -1,0 +1,197 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #fff !important;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #fff !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #fff  !important;
+}
+
+ul.nav li.active a {
+    color: #fff !important;
+}
+
+
+.navbar-default{
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.6em;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1em;
+}
+
+.navbar-collapse {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.jumbotron {
+  z-index: -10;
+  margin-top: -75px;
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.fugaz-logo {
+  width: 70%;
+  margin-top: 30vh;
+  padding-left: 20%;
+}
+
+.background-img {
+  background-image: url("../img/background.png");
+  background-size: cover;}
+
+
+.background-gradient {
+    background: linear-gradient(246deg, #3f141d, #474e67);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 45s ease infinite;
+    -moz-animation: AnimationName 45s ease infinite;
+    animation: AnimationName 45s ease infinite;
+
+}
+
+.awards-container-left {
+  height: 100vh;
+  background-image: url("../img/fugaz-04.png");
+  background-size: cover;
+}
+
+.awards-container-right {
+  height: 100vh;
+  background: linear-gradient(246deg, #3f141d, #474e67);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 45s ease infinite;
+  -moz-animation: AnimationName 45s ease infinite;
+  animation: AnimationName 45s ease infinite;
+  color: #3f141d;
+  padding: 8%;
+}
+
+  h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+
+}
+
+  h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 3%;
+  padding-left: 20px;
+  color: #fff;
+}
+
+  p {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 3%;
+}
+
+.carousel {
+    margin: 0;
+    padding: 100px 60px 30px 60px;
+    height: 100vh;
+
+    -webkit-animation: AnimationName 45s ease infinite;
+    -moz-animation: AnimationName 45s ease infinite;
+    animation: AnimationName 45s ease infinite;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+.thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
+.col-md-12 {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(246deg, #3f141d, #474e67, #F79031);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 45s ease infinite;
+  -moz-animation: AnimationName 45s ease infinite;
+  animation: AnimationName 45s ease infinite;
+  text-align: center;
+}
+
+.selected-container {
+  padding-left: 20%;
+  padding-right: 20%;
+    color: #111111;
+}
+
+.selected-container h2 {
+  border: none;
+  padding-left: 0;
+  padding-top: 10%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+
+footer {
+  background-color: #111111;
+  height: 30vh;
+}
+
+footer .col-md-4 {
+  padding: 5%;
+}
