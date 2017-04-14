@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" role="navigation">
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Desplegar navegación</span>
@@ -29,21 +30,22 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Los Premios</a></li>
-                <li><a href="#">La selección</a></li>
-                <li><a href="#">La comisión</a></li>
+                <li><a href="#los_premios">Los Premios</a></li>
+                <li><a href="#la_seleccion">La selección</a></li>
+                <li><a href="#la_comision">La comisión</a></li>
+                <li><a href="#patrocinadores">Patrocinadores</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="jumbotron container-01 background-gradient">
         <div class="container">
-            <figure><img src="img/fugaz-logo-02.png" alt="Fugaz" class="fugaz-logo animated fadeIn"></figure>
+            <img src="img/fugaz-logo-02.png" alt="Fugaz" class="fugaz-logo animated fadeIn">
         </div>
     </div>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" id="los_premios">
             <div class="col-md-6 awards-container-left"></div>
             <div class="col-md-6 awards-container-right">
               <h2>Los Premios del Cortometraje Español</h2>
@@ -54,7 +56,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" id="la_seleccion">
             <div class="col-md-12">
               <div class="selected-container">
               <h2>Cortometrajes seleccionados</h2>
@@ -75,16 +77,22 @@
 
                         <div class="item active">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/17-an%CC%83os-juntos-cartel-723x1024.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/112-Cartel.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Behind-Cartel-719x1024.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
+                                    <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Cambio-Cartel-733x1024.jpg" alt="Image" style="max-width:100%;"></a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Cambio-Cartel-733x1024.jpg" alt="Image" style="max-width:100%;"></a>
+                                </div>
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Cambio-Cartel-733x1024.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
                             </div>
@@ -94,16 +102,22 @@
 
                         <div class="item">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Como-yo-te-amo-Cartel.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Dantzariak-Cartel-717x1024.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Einstein-Rosen-Cartel.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
+                                    <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/El-andar-del-borracho-Cartel-724x1024.jpg" alt="Image" style="max-width:100%;"></a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/Einstein-Rosen-Cartel.jpg" alt="Image" style="max-width:100%;"></a>
+                                </div>
+                                <div class="col-md-2">
                                     <a href="#" class="thumbnail"><img src="https://www.cortoespana.es/wp-content/uploads/2017/02/El-andar-del-borracho-Cartel-724x1024.jpg" alt="Image" style="max-width:100%;"></a>
                                 </div>
                             </div>
@@ -125,7 +139,7 @@
     <!--.container-->
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" id="la_comision">
             <div class="col-md-6 awards-container-right">
               <h2>La Comisión</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
