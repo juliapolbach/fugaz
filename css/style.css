@@ -11,6 +11,7 @@ body {
     /* For mobile phones: */
     body {
         overflow: scroll;
+        background-color: #111111;
     }
 }
 
@@ -62,7 +63,7 @@ ul.nav li:last-child {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #F79031;
+    background-color: #333;
 }
 
 .icon-bar {
@@ -75,6 +76,12 @@ ul.nav li:last-child {
     height: 110vh;
     text-align: center;
     margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    height: 115vh;
+  }
 }
 
 .container-fluid {}
@@ -100,9 +107,15 @@ ul.nav li:last-child {
     z-index: 100;
 }
 
+@media only screen and (max-width: 768px) {
+  .signature {
+    display: none;
+  }
+}
+
 .logo-sponsor {
     position: absolute;
-    background: linear-gradient(246deg, #3f141d, #474e67);
+    background: linear-gradient(246deg, #20143f, #474e67);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 45s ease infinite;
     -moz-animation: AnimationName 45s ease infinite;
@@ -111,6 +124,12 @@ ul.nav li:last-child {
     height: 70px;
     bottom: 15px;
     z-index: 300;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-sponsor {
+    display: none;
+  }
 }
 
 .logo-mvdo {
@@ -147,6 +166,7 @@ ul.nav li:last-child {
     /* For mobile phones: */
     .fugaz-logo {
         width: 80%;
+        margin-left: 1vh;
     }
 }
 
@@ -156,7 +176,7 @@ ul.nav li:last-child {
 }
 
 .background-gradient {
-    background: linear-gradient(246deg, #3f141d, #474e67);
+    background: linear-gradient(246deg, #20143f, #474e67);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 45s ease infinite;
     -moz-animation: AnimationName 45s ease infinite;
@@ -169,9 +189,18 @@ ul.nav li:last-child {
     background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  .awards-container-left {
+      height: 20vh;
+      background-image: url("../img/fugaz-04.png");
+      background-size: cover;
+      background-position: 50% 50%;
+  }
+}
+
 .awards-container-right {
     height: 100vh;
-    background: linear-gradient(246deg, #3f141d, #474e67);
+    background: linear-gradient(246deg, #20143f, #474e67);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 45s ease infinite;
     -moz-animation: AnimationName 45s ease infinite;
@@ -180,11 +209,39 @@ ul.nav li:last-child {
     padding: 8%;
 }
 
+@media only screen and (max-width: 768px) {
+  .awards-container-right {
+      height: 80vh;
+      margin-bottom: -20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .comision {
+      height: 100vh;
+      margin-bottom: -20px;
+  }
+
+  .comision h2 {
+    margin-top: 15%;
+  }
+}
+
 .comission-container-right {
     height: 100vh;
     background-image: url("../img/fugaz-05.png");
     background-size: cover;
     background-position: 50% 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .comission-container-right {
+      height: 30vh;
+      background-image: url("../img/fugaz-05.png");
+      background-size: cover;
+      background-position: 50% 50%;
+      margin-top: 20px;
+  }
 }
 
 h2 {
@@ -232,6 +289,12 @@ p {
     animation: AnimationName 45s ease infinite;
 }
 
+@media only screen and (max-width: 768px) {
+  .carousel {
+    display: none;
+  }
+}
+
 
 /* The controlsy */
 
@@ -242,6 +305,14 @@ p {
     background: none repeat scroll 0 0 transparent;
     margin-top: 82px;
 }
+
+@media only screen and (max-width: 768px) {
+  .carousel-control {
+    height:120px;
+    width: 80px;
+  }
+}
+
 
 .carousel-control.right {
     right: -12px;
@@ -281,10 +352,17 @@ p {
     border: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .thumbnail img {
+    height: 280px;
+    padding-bottom: 10px;
+  }
+}
+
 .col-md-12 {
     margin: 0;
     padding: 0;
-    background: linear-gradient(246deg, #3f141d, #474e67, #F79031);
+    background: linear-gradient(246deg, #20143f, #474e67, #F79031);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 45s ease infinite;
     -moz-animation: AnimationName 45s ease infinite;
@@ -302,6 +380,22 @@ p {
     border: none;
     padding-left: 0;
     padding-top: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+
+.selected-container {
+  height: 55vh;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+  .selected-container h2 {
+    padding-top: 10px;
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+  }
 }
 
 @-webkit-keyframes AnimationName {
@@ -401,16 +495,75 @@ p {
 
 
 /* optional: show position indicator in red */
-
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+}
+
+@media only screen and (max-width: 768px) {
+  #lista_comision_link {
+    display: none;
+  }
+  #lista_comision h2 {
+    display: none;
+  }
+  #lista_comision_link_volver {
+    display: none;
+  }
+.lista {
+  height: 70vh;
+  padding-bottom: 0;
+  }
+}
+
+.patrocinadores {
+  height: 100vh;
+  padding: 20%;
+  padding-top: 10%;
+  background-color: #111111;
+}
+
+@media only screen and (max-width: 768px) {
+  .patrocinadores {
+    display: none;
+    }
+  }
+
+.patrocinadores h2 {
+  border: none;
+  margin-bottom: 100px;
+}
+
+.logo-fnac-patros {
+  width: 70px;
+  margin-right: 80px;
+}
+
+.logo-cev-patros {
+  padding-top: 10px;
+  width: 170px;
+  margin-right: 80px;
+}
+
+.logo-estrella-patros {
+  width: 70px;
+  margin-right: 80px;
+}
+
+.logo-mvdo-patros {
+  width: 150px;
 }
 
 footer {
     background-color: #111111;
-    height: 30vh;
+    height: 40px;
 }
 
 footer .col-md-4 {
     padding: 5%;
+}
+
+.logo-singnature-footer {
+  width: 30vh;
+  float: right;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
